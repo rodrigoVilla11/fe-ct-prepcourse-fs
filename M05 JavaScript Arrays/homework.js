@@ -228,7 +228,7 @@ function breakStatement(num) {
    // [PISTA]: utiliza el statement 'break'.
    // Tu código:
    let array = [];
-   total = num
+   let total = num
    for (let i = 0; i < 10; i++) {
       total = total + 2;
       if (total === i) {
@@ -237,7 +237,7 @@ function breakStatement(num) {
          array.push(total);
       }
       if (array.length < 10) {
-            return 'Se interrumpio la ejecucion';
+            return 'Se interrumpió la ejecución';
       } else if (array.length === 10){  
             return array;
       }
